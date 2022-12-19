@@ -19,27 +19,49 @@
     />
   </head>
   <body>
-
     <main>
       <section class="txt-container">
         <h1>Qual frase você gostaria de codificar?</h1>
-        <p>Apenas letras minúsculas e sem acento.</p>
-        <textarea id="main-input" rows="5" cols="33" placeholder="Digite aqui seu texto."></textarea>
+        <p>Por favor, apenas letras minúsculas e sem acento.</p>
+        <textarea
+          id="main-input"
+          rows="5"
+          cols="33"
+          placeholder="Digite aqui seu texto."
+        ></textarea>
       </section>
 
       <section class="bttn-container">
-        <button id="cript-bttn" type="button" onclick="criptografa()">Criptografar</button>
-        <button id="descript-bttn" type="button" onclick="descript()">Descriptografar</button>
-        <button id="copy-bttn" type="button" onclick="copyToClipboard()">Copiar texto</button>
+        <button id="cript-bttn" type="button" onclick="criptografa()">
+          Criptografar
+        </button>
+        <button id="descript-bttn" type="button" onclick="descript()">
+          Descriptografar
+        </button>
       </section>
 
       <section class="output-container">
-        <p id="saida"></p>
-        </section>
+        <p id="saida">Ops, ainda não encontramos nada.</p>
+      </section>
+
+      <section class="actionbttn-container">
+        <button id="copy-bttn" type="button" onclick="copyToClipboard()">
+          <img src="/assets/pictures/icons8-copy-64.png" />
+        </button>
+        <button id="delete-bttn" type="button" onclick="">
+          <img src="/assets/pictures/icons8-bin-64.png" />
+        </button>
+      </section>
     </main>
 
-    <script type="text/javascript" src="/assets/scripts/criptografar.js"></script>
-    <script type="text/javascript" src="/assets/scripts/descriptografa.js"></script>
+    <script
+      type="text/javascript"
+      src="/assets/scripts/criptografar.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/assets/scripts/descriptografa.js"
+    ></script>
     <script type="text/javascript" src="/assets/scripts/copiar.js"></script>
   </body>
 </html>
