@@ -6,3 +6,68 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+header h1 {
+    color: var(--text-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-input {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--text-color);
+    color: #000;
+}
+
+#main-input:focus {
+    outline: none;
+}
+
+.txt-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.bttn-area, button {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--bg-color);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.cript-bttn {
+    background-color: var(--button-color);
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.descript-bttn {
+    background-color: var(--text-color);
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
