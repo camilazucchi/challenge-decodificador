@@ -7,7 +7,7 @@ var saida = document.querySelector("p#saida");
 
 // criptografar
 function criptografa() {
-  if (texto.value.length == 0) {
+  if (texto.value.length === 0) {
     return (saida.innerHTML = "Nenhuma mensagem foi encontrada.");
   } else {
     var text = texto.value;
