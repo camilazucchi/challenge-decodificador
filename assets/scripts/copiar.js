@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 function copyToClipboard() {
     var copyText = document.querySelector("p#saida").innerHTML;
     navigator.clipboard.writeText(copyText).then(() => {

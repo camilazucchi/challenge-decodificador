@@ -1,3 +1,5 @@
+/* eslint-disable no-redeclare */
+/* eslint-disable no-unused-vars */
 var descriptBttn = document.getElementById("button#descript-bttn");
 var texto = document.querySelector("textarea#main-input");
 var saida = document.querySelector("p#saida");

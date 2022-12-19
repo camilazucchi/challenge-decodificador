@@ -1,3 +1,5 @@
+/* eslint-disable no-redeclare */
+/* eslint-disable no-unused-vars */
 // dom
 var criptBttn = document.getElementById("button#cript-bttn");
 var descriptBttn = document.getElementById("button#descript-bttn");
