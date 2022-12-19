@@ -19,26 +19,23 @@
     />
   </head>
   <body>
-    <header>
-      <h1>Decodificador</h1>
-    </header>
 
     <main>
-      <div class="txt-area">
-        <label for="main-input"
-          >Digite um texto que você deseja criptografar ou
-          descriptografar.</label
-        >
-        <textarea id="main-input" rows="5" cols="33"></textarea>
-      </div>
+      <section class="txt-container">
+        <h1>Qual frase você gostaria de codificar?</h1>
+        <p>Apenas letras minúsculas e sem acento.</p>
+        <textarea id="main-input" rows="5" cols="33" placeholder="Digite aqui seu texto."></textarea>
+      </section>
 
-      <div class="bttn-area">
+      <section class="bttn-container">
         <button id="cript-bttn" type="button" onclick="criptografa()">Criptografar</button>
         <button id="descript-bttn" type="button" onclick="descript()">Descriptografar</button>
         <button id="copy-bttn" type="button" onclick="copyToClipboard()">Copiar texto</button>
-      </div>
+      </section>
 
-      <p id="saida"></p>
+      <section class="output-container">
+        <p id="saida"></p>
+        </section>
     </main>
 
     <script type="text/javascript" src="/assets/scripts/criptografar.js"></script>

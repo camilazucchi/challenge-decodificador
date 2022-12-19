@@ -8,73 +8,99 @@
 }
 
 body {
-    background-color: var(--bg-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--grey);
     width: 100vw;
     height: 100vh;
 }
 
-header h1 {
-    color: var(--text-color);
-}
 
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    width: 1600px;
+    height: 800px;
+    padding: 30px;
+    background-color: var(--orange);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
 }
 
-#main-input {
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid var(--text-color);
-    color: #000;
-}
-
-#main-input:focus {
-    outline: none;
-}
-
-.txt-area {
+.txt-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    font-size: 20px;
 }
 
-.bttn-area, button {
+.txt-container img {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+textarea {
+    height: 300px;
+    width: 600px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    resize: none;
+    opacity: 0.5;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.bttn-container {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: var(--bg-color);
-    font-size: 16px;
-    font-weight: 600;
+    text-align: center;
+}
+
+button {
+    border: none;
+    margin: 15px;
+    padding: 20px;
     border-radius: 20px;
+    color: #000;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 #cript-bttn {
-    background-color: var(--button-color);
-    border: none;
-    padding: 15px;
-    cursor: pointer;
+    background-color: var(--grey);
 }
 
 #descript-bttn {
-    background-color: var(--text-color);
-    border: none;
-    padding: 15px;
-    cursor: pointer;
+    background-color: var(--yellow);
 }
 
 #copy-bttn {
-    background-color: var(--button-color);
-    border: none;
-    padding: 15px;
-    cursor: pointer;
+    background-color: var(--grey);
+}
+
+.output-container {
+    opacity: 0.5;
+    background-color: var(--yellow);
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    height: 300px;
+    width: 600px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
