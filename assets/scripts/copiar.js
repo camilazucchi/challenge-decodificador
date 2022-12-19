@@ -1,7 +1,8 @@
-/* eslint-disable no-unused-vars */
+var saida = document.querySelector("p#saida");
+
 function copyToClipboard() {
-    var copyText = document.querySelector("p#saida").innerHTML;
+    var copyText = saida.innerHTML;
     navigator.clipboard.writeText(copyText).then(() => {
-       alert('texto copiado')
+       saida.innerHTML = "Seu texto foi copiado com sucesso."
     });
 }
