@@ -58,15 +58,22 @@ main {
     border-radius: 20px;
 }
 
-.cript-bttn {
+#cript-bttn {
     background-color: var(--button-color);
     border: none;
     padding: 15px;
     cursor: pointer;
 }
 
-.descript-bttn {
+#descript-bttn {
     background-color: var(--text-color);
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#copy-bttn {
+    background-color: var(--button-color);
     border: none;
     padding: 15px;
     cursor: pointer;

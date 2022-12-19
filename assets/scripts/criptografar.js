@@ -22,7 +22,7 @@ function criptografa() {
 }
 
 function descript() {
-  if (texto.value.length == 0) {
+  if (texto.value.length === 0) {
     return (saida.innerHTML = "Nenhuma mensagem foi encontrada.");
   } else {
     var text = texto.value;
