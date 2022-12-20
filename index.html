@@ -1,68 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Decodificador - Alura Challenge</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/assets/styles/style.css"
-      media="screen"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/assets/styles/colors.css"
-      media="screen"
-    />
-  </head>
-  <body>
-    <main>
-      <section class="txt-container">
-        <h1>Qual frase você gostaria de codificar?</h1>
-        <p>Por favor, apenas letras minúsculas e sem acento.</p>
-        <textarea
-          id="main-input"
-          rows="5"
-          cols="33"
-          placeholder="Digite aqui seu texto."
-        ></textarea>
-      </section>
 
-      <section class="bttn-container">
-        <button id="cript-bttn" type="button" onclick="criptografa()">
-          Criptografar
-        </button>
-        <button id="descript-bttn" type="button" onclick="descript()">
-          Descriptografar
-        </button>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Decodificador - Alura Challenge</title>
+  <link rel="stylesheet" type="text/css" href="/assets/styles/style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="/assets/styles/colors.css" media="screen" />
+</head>
 
-      <section class="output-container">
-        <p id="saida">Ops, ainda não encontramos nada.</p>
-      </section>
+<body>
+  <main>
+    <section class="txt-container">
+      <h1>Qual frase você gostaria de codificar?</h1>
+      <p>Por favor, apenas letras minúsculas e sem acento.</p>
+      <textarea id="main-input" rows="5" cols="33" placeholder="Digite aqui seu texto."></textarea>
+    </section>
 
-      <section class="actionbttn-container">
-        <button id="copy-bttn" type="button" onclick="copyToClipboard()">
-          <img src="/assets/pictures/icons8-copy-64.png" />
-        </button>
-        <button id="delete-bttn" type="button" onclick="clearText()" value="Clear">
-          <img src="/assets/pictures/icons8-bin-64.png" />
-        </button>
-      </section>
-    </main>
+    <section class="bttn-container">
+      <button id="cript-bttn" type="button" onclick="criptografa()">
+        Criptografar
+      </button>
+      <button id="descript-bttn" type="button" onclick="descript()">
+        Descriptografar
+      </button>
+    </section>
 
-    <script
-      type="text/javascript"
-      src="/assets/scripts/criptografar.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="/assets/scripts/descriptografa.js"
-    ></script>
-    <script type="text/javascript" src="/assets/scripts/copiar.js"></script>
-    <script type="text/javascript" src="/assets/scripts/delete.js"></script>
-  </body>
+    <section class="output-container">
+      <p id="saida">Ops, ainda não encontramos nada.</p>
+    </section>
+
+    <section class="actionbttn-container">
+      <button id="copy-bttn" type="button" onclick="copyToClipboard()">
+        <img src="/assets/pictures/icons8-copy-64.png" />
+      </button>
+      <button id="delete-bttn" type="button" onclick="clearText()" value="Clear">
+        <img src="/assets/pictures/icons8-bin-64.png" />
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com muito 💗 por <a href="https://github.com/camilazucchi">@camilazucchi</a>.</p>
+  </footer>
+
+  <script type="text/javascript" src="/assets/scripts/criptografar.js"></script>
+  <script type="text/javascript" src="/assets/scripts/descriptografa.js"></script>
+  <script type="text/javascript" src="/assets/scripts/copiar.js"></script>
+  <script type="text/javascript" src="/assets/scripts/delete.js"></script>
+</body>
+
 </html>
