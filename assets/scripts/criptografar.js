@@ -9,7 +9,10 @@ var saida = document.querySelector("p#saida");
 
 // criptografar
 function criptografa() {
-  if (texto.value.length === 0) {
+  var reg = /[a-zA-Z\u00C0-\u00FF ]+/i;
+  if (texto.value.match(reg)) {
+    return (texto.value = "Ops, parece que você utilizou acentos!")
+  } else if (texto.value.length === 0) {
     return (saida.innerHTML = "Nenhuma mensagem foi encontrada.");
   } else {
     var text = texto.value;
