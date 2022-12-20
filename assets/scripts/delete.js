@@ -6,6 +6,6 @@ function clearText() {
     saida.innerHTML = "Digite alguma coisa antes de apagar!";
   } else {
     texto.value = "";
-    saida.innerHTML = "";
+    saida.innerHTML = "Apagamos! Gostaria de tentar novamente?";
   }
 }
