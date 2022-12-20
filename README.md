@@ -1,5 +1,6 @@
 # Decodificador - ONE + Alura Challenge 🔒
 ![Imagem do projeto](https://uploaddeimagens.com.br/images/004/267/471/original/decodificador.PNG?1671544857)
+Para melhor visualização, o projeto enontra-se em deploy (https://challenge-decodificador.vercel.app/)[AQUI]!
 
 ## Sobre o desafio
 O projeto faz parte da primeira fase da seleção ONE (Oracle Next Education) em parceria com a Alura e possui como objetivo a criptografia de textos.
