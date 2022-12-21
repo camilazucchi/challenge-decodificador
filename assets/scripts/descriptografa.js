@@ -1,20 +1,18 @@
-/* eslint-disable no-redeclare */
-/* eslint-disable no-unused-vars */
 var descriptBttn = document.getElementById("button#descript-bttn");
-var texto = document.querySelector("textarea#main-input");
-var saida = document.querySelector("p#saida");
+var textInput = document.querySelector("textarea#main-input");
+var textOutput = document.querySelector("p#main-output");
 
-function descript() {
-  if (texto.value.length === 0) {
-    return (saida.innerHTML = "Nenhuma mensagem foi encontrada.");
+function descriptografaTexto() {
+  if (textInput.value.length === 0) {
+    return (textOutput.innerHTML = "Nenhuma mensagem foi encontrada.");
   } else {
-    var text = texto.value;
-    var txt = text.replace(/enter/g, "e");
+    var changeText = textInput.value;
+    var txt = changeText.replace(/enter/g, "e");
     var txt = txt.replace(/imes/g, "i");
     var txt = txt.replace(/ai/g, "a");
     var txt = txt.replace(/ober/g, "o");
     var txt = txt.replace(/ufat/g, "u");
 
-    saida.innerHTML = `${txt}`;
+    textOutput.innerHTML = `${txt}`;
   }
 }
