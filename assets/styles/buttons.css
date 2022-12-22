@@ -1,0 +1,72 @@
+.bttn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-left: 0.9rem;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    color: #000;
+    font-size: 1.125rem;
+    font-weight: bolder;
+    text-overflow: clip;
+    cursor: pointer;
+}
+
+#cript-bttn {
+    background-color: var(--light-pink);
+}
+
+#cript-bttn:hover {
+    background-color: var(--pink);
+    transition: 1s;
+}
+
+#descript-bttn {
+    background-color: var(--pink);
+}
+
+#descript-bttn:hover {
+    background-color: var(--light-pink);
+    transition: 1s;
+}
+
+.actionbttn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 1rem;
+}
+
+#copy-bttn {
+    background-color: var(--pink);
+    width: 5rem;
+    height: 5rem;
+}
+
+#copy-bttn img,
+#delete-bttn img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#delete-bttn {
+    background-color: var(--light-pink);
+    width: 5rem;
+    height: 5rem;
+}
