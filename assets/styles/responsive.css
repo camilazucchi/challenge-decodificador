@@ -131,6 +131,11 @@
 }
 
 @media (min-width: 912px) and (max-width: 1024px){
+
+    html {
+        zoom: 1;
+      }
+      
     main {
         width: 80%;
         height: 80%;
