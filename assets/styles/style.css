@@ -79,7 +79,7 @@ button {
     justify-content: center;
     border: none;
     margin-left: 0.9rem;
-    padding: 1.25rem;
+    padding: 1rem;
     border-radius: 1.25rem;
     color: #000;
     font-size: 1.125rem;
@@ -164,6 +164,10 @@ a {
     margin-top: 1rem;
     text-decoration: none;
     text-align: center;
+}
+
+footer img {
+    width: 20px;
 }
 
 @media (min-width: 280px) and (max-width: 300px){

@@ -5,10 +5,12 @@ var texto = document.querySelector("textarea#main-input");
 var saida = document.querySelector("p#main-output");
 
 function criptografaTexto() {
-  if (texto.value.length === 0) {
-    return (saida.innerHTML = "Nenhuma mensagem foi encontrada.");
+  var text = texto.value;
+  if (/[A-Z-À-Ú-à-ù]/.test(text)) {
+    saida.innerHTML = 'Ops, parece que você usou letras maiúsculas ou acentos.'
+  } else if (texto.value === '') {
+    saida.innerHTML = 'O campo está vazio.'
   } else {
-    var text = texto.value;
     var txt = text.replace(/e/g, "enter");
     var txt = txt.replace(/i/g, "imes");
     var txt = txt.replace(/a/g, "ai");
