@@ -1,11 +1,11 @@
-var texto = document.querySelector("textarea#main__input");
-var saida = document.querySelector("p#main__output");
+var entradaTexto = document.querySelector("textarea#input__entrada");
+var saidaTexto = document.querySelector("textarea#input__saida");
 
 function limpaCampos() {
-  if (texto.value.length === 0) {
-    saida.innerHTML = "Digite alguma coisa antes de apagar!";
+  if (entradaTexto.value.length === 0) {
+    saidaTexto.innerHTML = "Digite alguma coisa antes de apagar!";
   } else {
-    texto.value = "";
-    saida.innerHTML = "Apagamos! Gostaria de tentar novamente?";
+    entradaTexto.value = "";
+    saidaTexto.innerHTML = "Apagamos! Gostaria de tentar novamente?";
   }
 }
