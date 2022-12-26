@@ -1,4 +1,4 @@
-# Decodificador - ONE + Alura Challenge 🔒
+# Meow Code - ONE + Alura Challenge 🔒
 ![Imagem do projeto](https://uploaddeimagens.com.br/images/004/267/471/original/decodificador.PNG?1671544857)
 Para melhor visualização, o projeto enontra-se em deploy [AQUI](https://challenge-decodificador.vercel.app/)!
 
