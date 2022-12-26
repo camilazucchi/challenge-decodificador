@@ -1,8 +1,8 @@
-var criptBttn = document.getElementById("button#cript-bttn");
-var descriptBttn = document.getElementById("button#descript-bttn");
-var copyBttn = document.getElementById("button#copy-bttn");
-var texto = document.querySelector("textarea#main-input");
-var saida = document.querySelector("p#main-output");
+var criptBttn = document.getElementById("button#cript__bttn");
+var descriptBttn = document.getElementById("button#descript__bttn");
+var copyBttn = document.getElementById("button#copy__bttn");
+var texto = document.querySelector("textarea#main__input");
+var saida = document.querySelector("p#main__output");
 
 function criptografaTexto() {
   var text = texto.value;

@@ -1,6 +1,6 @@
-var descriptBttn = document.getElementById("button#descript-bttn");
-var texto = document.querySelector("textarea#main-input");
-var textOutput = document.querySelector("p#main-output");
+var descriptBttn = document.getElementById("button#descript__bttn");
+var texto = document.querySelector("textarea#main__input");
+var textOutput = document.querySelector("p#main__output");
 
 function descriptografaTexto() {
   var text = texto.value;

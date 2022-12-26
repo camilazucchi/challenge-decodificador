@@ -1,5 +1,5 @@
-var texto = document.querySelector("textarea#main-input");
-var saida = document.querySelector("p#main-output");
+var texto = document.querySelector("textarea#main__input");
+var saida = document.querySelector("p#main__output");
 
 function copiaTexto() {
     if (texto.value.length === 0) {
