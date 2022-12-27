@@ -11,11 +11,15 @@
   --rosa-escuro: #ff8e9e;
 }
 
+/* RESET */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* SCROLLBAR PÁGINA */
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -52,6 +56,8 @@ body::after {
   opacity: 0.05;
 }
 
+/* NAVBAR */
+
 .navbar__container {
   display: flex;
   align-items: center;
@@ -74,6 +80,8 @@ body::after {
   width: 40px;
   height: 40px;
 }
+
+/* CAMPOS DE TEXTO */
 
 .input__container {
   display: flex;
@@ -115,6 +123,8 @@ textarea:focus {
   outline: none;
 }
 
+/* SCROLLBAR TEXTAREA */
+
 textarea::-webkit-scrollbar {
   width: 5px;
 }
@@ -123,6 +133,8 @@ textarea::-webkit-scrollbar-thumb {
   background-color: var(--rosa-escuro);
   outline: 1px solid var(--rosa-medio);
 }
+
+/* BOTÕES */
 
 .botoes__principais {
   display: flex;
@@ -164,6 +176,8 @@ button:hover {
   background-color: var(--rosa-medio);
 }
 
+/* AVISO */
+
 .aviso__container {
   display: flex;
   flex-flow: row wrap;
@@ -184,6 +198,13 @@ button:hover {
   word-wrap: break-all;
 }
 
+#aviso__imagem img {
+  width: 30px;
+  height: 30px;
+}
+
+/* FOOTER */
+
 .footer__container {
   display: flex;
   align-items: center;
@@ -200,21 +221,28 @@ button:hover {
   width: 30px;
 }
 
-#aviso__imagem img {
-  width: 30px;
-  height: 30px;
-}
+/* CRÉDITOS */
 
-.gatinho__container {
+.aside__container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
   margin-top: 30px;
+}
+
+.aside__container p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  text-align: center;
 }
 
 #gatinho__imagem {
   width: 100px;
 }
+
+/* RESPONSIVIDADE */
 
 @media (max-width: 1100px) {
   #gatinho__imagem {
