@@ -212,6 +212,8 @@ button:hover {
   position: fixed;
   gap: 0.625rem;
   bottom: 0;
+  left: 0;
+  right: 0;
   height: 3.75rem;
   width: 100%;
   background-color: var(--rosa-escuro);
