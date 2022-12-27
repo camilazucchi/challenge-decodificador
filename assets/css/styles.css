@@ -44,7 +44,7 @@ body {
 
 body::after {
   content: "";
-  background-image: url('/assets/pictures/catpattern.png');
+  background-image: url('/assets/pictures/pattern.png');
   background-size: cover;
   background-repeat: no-repeat;
   position: fixed;
