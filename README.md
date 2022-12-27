@@ -1,4 +1,4 @@
-# Meow Code - ONE + Alura Challenge 🔒
+# 🐾 Meow Code - ONE + Alura Challenge 🔒
 ![Imagem do projeto](https://uploaddeimagens.com.br/images/004/275/332/original/screencapture-127-0-0-1-5501-index-html-2022-12-27-13_46_18.png?1672159860)
 Para melhor visualização, o projeto enontra-se em deploy [AQUI](https://challenge-decodificador.vercel.app/)!
 
@@ -12,10 +12,10 @@ As chaves de criptografia são:
 - A letra "u" é convertida para "ufat".
 
 ## Requisitos
-- Deve funcionar apenas com letras minúsculas.
-- Não devem ser utilizadas letras com acentos ou caracteres especiais.
-- Deve ser possível converter uma palavra criptografada e também retornar uma palavra criptografada para a versão original.
-- A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções.
-- O resultado deve ser exibido na tela.
+-[x] Deve funcionar apenas com letras minúsculas.
+-[x] Não devem ser utilizadas letras com acentos ou caracteres especiais.
+-[x] Deve ser possível converter uma palavra criptografada e também retornar uma palavra criptografada para a versão original.
+-[x] A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções.
+-[x] O resultado deve ser exibido na tela.
 
 ## Demonstração
