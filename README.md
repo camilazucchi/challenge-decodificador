@@ -12,10 +12,10 @@ As chaves de criptografia são:
 - A letra "u" é convertida para "ufat".
 
 ## Requisitos
--[X] Deve funcionar apenas com letras minúsculas.
--[X] Não devem ser utilizadas letras com acentos ou caracteres especiais.
--[X] Deve ser possível converter uma palavra criptografada e também retornar uma palavra criptografada para a versão original.
--[X] A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções.
--[X] O resultado deve ser exibido na tela.
+- [X] Deve funcionar apenas com letras minúsculas.
+- [X] Não devem ser utilizadas letras com acentos ou caracteres especiais.
+- [X] Deve ser possível converter uma palavra criptografada e também retornar uma palavra criptografada para a versão original.
+- [X] A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções.
+- [X] O resultado deve ser exibido na tela.
 
 ## Demonstração
