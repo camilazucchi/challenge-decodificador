@@ -5,7 +5,7 @@ var entradaTexto = document.querySelector("textarea#input__entrada");
 var saidaTexto = document.querySelector("textarea#input__saida");
 
 function criptografaTexto() {
-  var text = entradaTexto.value;
+  let text = entradaTexto.value;
   if (/[A-Z-À-Ú-à-ù]/.test(text)) {
     saidaTexto.innerHTML = 'Ops, parece que você usou letras maiúsculas ou acentos.'
   } else if (entradaTexto.value === '') {

@@ -10,10 +10,10 @@ function descriptografaTexto() {
     saidaTexto.innerHTML = 'O campo está vazio.'
   } else {
     var txt = text.replace(/enter/g, "e");
-    var txt = text.replace(/imes/g, "i");
-    var txt = text.replace(/ai/g, "a");
-    var txt = text.replace(/ober/g, "o");
-    var txt = text.replace(/ufat/g, "u");
+    var txt = txt.replace(/imes/g, "i");
+    var txt = txt.replace(/ai/g, "a");
+    var txt = txt.replace(/ober/g, "o");
+    var txt = txt.replace(/ufat/g, "u");
 
     saidaTexto.innerHTML = `${txt}`;
   }
