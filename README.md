@@ -17,5 +17,3 @@ As chaves de criptografia são:
 - [X] Deve ser possível converter uma palavra criptografada e também retornar uma palavra criptografada para a versão original.
 - [X] A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções.
 - [X] O resultado deve ser exibido na tela.
-
-## Demonstração
