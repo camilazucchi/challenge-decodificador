@@ -85,7 +85,9 @@ body::after {
   text-align: center;
   font-size: 16px;
   color: var(--preto);
-  overflow: hidden;
+  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: auto;
   resize: none;
 }
 
@@ -95,6 +97,15 @@ body::after {
 
 textarea:focus {
   outline: none;
+}
+
+textarea::-webkit-scrollbar {
+  width: 5px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: var(--rosa-escuro);
+  outline: 1px solid var(--rosa-medio);
 }
 
 .botoes__principais {
@@ -219,9 +230,5 @@ button:hover {
 
   .footer__container {
     gap: 30px;
-  }
-
-  .footer__container img {
-    width: 40px;
   }
 }
