@@ -89,7 +89,7 @@ body::after {
   align-items: center;
   justify-content: center;
   margin-top: 80px;
-  gap: 15px;
+  gap: 20px;
   font-family: "Roboto Mono", monospace;
 }
 
