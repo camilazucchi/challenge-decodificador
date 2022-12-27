@@ -1,5 +1,5 @@
 # Meow Code - ONE + Alura Challenge 🔒
-![Imagem do projeto](https://uploaddeimagens.com.br/images/004/267/471/original/decodificador.PNG?1671544857)
+![Imagem do projeto](https://uploaddeimagens.com.br/images/004/274/896/original/screencapture-challenge-decodificador-vercel-app-2022-12-27-09_42_05.png?1672145187)
 Para melhor visualização, o projeto enontra-se em deploy [AQUI](https://challenge-decodificador.vercel.app/)!
 
 ## Sobre o desafio
