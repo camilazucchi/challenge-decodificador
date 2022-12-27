@@ -1,8 +1,6 @@
-/* FONTES */
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap");
 
-/* CORES PRINCIPAIS */
 :root {
   --branco: #fff;
   --preto: #252525;
@@ -11,15 +9,11 @@
   --rosa-escuro: #ff8e9e;
 }
 
-/* RESET */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-/* SCROLLBAR PÁGINA */
 
 ::-webkit-scrollbar {
   width: 0.625rem;
@@ -56,8 +50,6 @@ body::after {
   opacity: 0.05;
 }
 
-/* NAVBAR */
-
 .navbar__container {
   display: flex;
   align-items: center;
@@ -80,8 +72,6 @@ body::after {
   width: 2.5rem;
   height: 2.5rem;
 }
-
-/* CAMPOS DE TEXTO */
 
 .input__container {
   display: flex;
@@ -123,8 +113,6 @@ textarea:focus {
   outline: none;
 }
 
-/* SCROLLBAR TEXTAREA */
-
 textarea::-webkit-scrollbar {
   width: 0.313rem;
 }
@@ -133,8 +121,6 @@ textarea::-webkit-scrollbar-thumb {
   background-color: var(--rosa-escuro);
   outline: 0.063rem solid var(--rosa-medio);
 }
-
-/* BOTÕES */
 
 .botoes__principais {
   display: flex;
@@ -176,8 +162,6 @@ button:hover {
   background-color: var(--rosa-medio);
 }
 
-/* AVISO */
-
 .aviso__container {
   display: flex;
   flex-flow: row wrap;
@@ -203,8 +187,6 @@ button:hover {
   height: 1.875rem;
 }
 
-/* FOOTER */
-
 .footer__container {
   display: flex;
   align-items: center;
@@ -222,8 +204,6 @@ button:hover {
 .footer__container img {
   width: 1.875rem;
 }
-
-/* CRÉDITOS */
 
 .aside__container {
   display: flex;
@@ -243,8 +223,6 @@ button:hover {
 #gatinho__imagem {
   width: 6.25rem;
 }
-
-/* RESPONSIVIDADE */
 
 @media (max-width: 1100px) {
   #gatinho__imagem {
