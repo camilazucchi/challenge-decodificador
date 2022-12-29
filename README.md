@@ -29,6 +29,16 @@ O projeto inicial possuía o design proposto no [Figma](https://www.figma.com/fi
 ![Imagem do Projeto Mobile](https://uploaddeimagens.com.br/images/004/277/947/original/screencapture-127-0-0-1-5501-index-html-2022-12-29-10_23_01.png?1672321018)
 ### Funcionalidades
 #### Criptografia
+![criptografando](https://user-images.githubusercontent.com/79670317/209987595-2203b956-b8ff-4f98-9a5a-38e8e1cdcd87.gif)
+
+### Descriptografando
+![descriptografando](https://user-images.githubusercontent.com/79670317/209987675-ad31a6fb-977e-4e0b-8dcc-b54ab2721cf0.gif)
+
+### Copiar texto
+![copiaTexto](https://user-images.githubusercontent.com/79670317/209988079-701e1cb9-6a02-474d-a60f-59154f26d4a5.gif)
+
+### Apaga campos preenchidos
+![apagaCampos](https://user-images.githubusercontent.com/79670317/209988194-fd87c8bc-199c-4d33-b54e-36a50d09166a.gif)
 
 ## Autores
-Feito com muito 💗 por [@camilazucchi](https://www.github.com/camilazucchi).
+Feito originalmente com muito 💗 por [**@camilazucchi**](https://www.github.com/camilazucchi).
