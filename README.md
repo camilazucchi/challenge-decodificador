@@ -5,6 +5,7 @@ O projeto faz parte da primeira fase da seleção ONE (Oracle Next Education) em
 
 ## Sobre o desafio
 1. Chaves de criptografia
+
 Era essencial a utilização de chaves de criptografia, sendo elas:
 - A letra "e" é convertida para "enter".
 - A letra "i" é convertida para "imes".
@@ -20,7 +21,7 @@ Era essencial a utilização de chaves de criptografia, sendo elas:
 - [X] O resultado deve ser exibido na tela.
 
 3. Extras
-- Fica de responsabilidade do participante adicionar ou não um botão de copiar (ctrl + c) do texto criptografado pelo usuário.
+Fica de responsabilidade de escolha do participante adicionar ou não um botão de copiar (ctrl + c) do texto criptografado pelo usuário.
 ## Apresentação do projeto
 - Versão Desktop 🖥️
 ![Imagem do Projeto Desktop](https://uploaddeimagens.com.br/images/004/277/941/original/screencapture-127-0-0-1-5501-index-html-2022-12-29-10_30_02.png?1672320847)
