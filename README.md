@@ -27,7 +27,8 @@ O projeto inicial possuía o design proposto no [Figma](https://www.figma.com/fi
 ![Imagem do Projeto Desktop](https://uploaddeimagens.com.br/images/004/277/941/original/screencapture-127-0-0-1-5501-index-html-2022-12-29-10_30_02.png?1672320847)
 ### Versão Mobile
 ![Imagem do Projeto Mobile](https://uploaddeimagens.com.br/images/004/277/947/original/screencapture-127-0-0-1-5501-index-html-2022-12-29-10_23_01.png?1672321018)
-### Funcionalidades
+
+## Funcionalidades
 #### Criptografia
 ![criptografando](https://user-images.githubusercontent.com/79670317/209987595-2203b956-b8ff-4f98-9a5a-38e8e1cdcd87.gif)
 
