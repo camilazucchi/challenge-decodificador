@@ -42,5 +42,8 @@ O projeto inicial possuía o design proposto no [Figma](https://www.figma.com/fi
 #### Apaga campos preenchidos
 ![apagaCampos](https://user-images.githubusercontent.com/79670317/209988194-fd87c8bc-199c-4d33-b54e-36a50d09166a.gif)
 
+#### Extra: aviso quando o usuário digita palavras com letras maiúsculas ou acentuação
+![aviso](https://user-images.githubusercontent.com/79670317/209989584-9467566b-2c31-42f1-bcfc-cc012a7720fe.gif)
+
 ## Autores
 Feito originalmente com muito 💗 por [**@camilazucchi**](https://www.github.com/camilazucchi).
