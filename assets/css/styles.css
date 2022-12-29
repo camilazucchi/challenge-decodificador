@@ -8,7 +8,7 @@
   --rosa-medio: #ffd1d1;
   --rosa-escuro: #ff8e9e;
 
-  --fonte-primaria: font-family: "Roboto Mono", monospace;
+  --fonte-primaria: "Roboto Mono", monospace;
   --fonte-secundaria: "Lobster", cursive;
 }
 
@@ -84,6 +84,7 @@ body::after {
   margin-top: 5rem;
   gap: 1.25rem;
   font-family: var(--fonte-primaria);
+}
 
 .input__titulo {
   font-size: 1rem;
