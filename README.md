@@ -5,8 +5,7 @@ O projeto faz parte da primeira fase da seleção ONE (Oracle Next Education) em
 
 ## Sobre o desafio
 1. Chaves de criptografia
-
-    Era essencial a utilização de chaves de criptografia, sendo elas:
+Era essencial a utilização de chaves de criptografia, sendo elas:
 - A letra "e" é convertida para "enter".
 - A letra "i" é convertida para "imes".
 - A letra "a" é convertida para "ai".
