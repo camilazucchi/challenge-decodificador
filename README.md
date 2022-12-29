@@ -22,9 +22,9 @@ Era essencial a utilização de chaves de criptografia, sendo elas:
 3. Extras
 - Fica de responsabilidade do participante adicionar ou não um botão de copiar (ctrl + c) do texto criptografado pelo usuário.
 ## Apresentação do projeto
-# Versão Desktop 🖥️
+- Versão Desktop 🖥️
 ![Imagem do Projeto Desktop](https://uploaddeimagens.com.br/images/004/277/941/original/screencapture-127-0-0-1-5501-index-html-2022-12-29-10_30_02.png?1672320847)
-# Versão Mobile 📱
+- Versão Mobile 📱
 ![Imagem do Projeto Mobile](https://uploaddeimagens.com.br/images/004/277/947/original/screencapture-127-0-0-1-5501-index-html-2022-12-29-10_23_01.png?1672321018)
 O projeto inicial possuía o design proposto no [Figma](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=16%3A802&t=E48uGFCMEDtMWxxD-0), sendo opcional. Por isso, decidi por inovar e fazer meu próprio design.
 ## Autores
