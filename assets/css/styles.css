@@ -7,6 +7,9 @@
   --rosa-claro: #ffe3e1;
   --rosa-medio: #ffd1d1;
   --rosa-escuro: #ff8e9e;
+
+  --fonte-primaria: font-family: "Roboto Mono", monospace;
+  --fonte-secundaria: "Lobster", cursive;
 }
 
 * {
@@ -63,7 +66,7 @@ body::after {
 }
 
 .navbar__titulo {
-  font-family: "Lobster", cursive;
+  font-family: var(--fonte-secundaria);
   font-size: 1.875rem;
   color: var(--branco);
 }
@@ -80,8 +83,7 @@ body::after {
   justify-content: center;
   margin-top: 5rem;
   gap: 1.25rem;
-  font-family: "Roboto Mono", monospace;
-}
+  font-family: var(--fonte-primaria);
 
 .input__titulo {
   font-size: 1rem;
@@ -151,7 +153,7 @@ button {
   border: none;
   border-radius: 0.625rem;
   white-space: nowrap;
-  font-family: "Roboto Mono", monospace;
+  font-family: var(--fonte-primaria);
   font-size: 0.875rem;
   font-weight: 400;
   color: #eeeeee;
@@ -171,7 +173,7 @@ button:hover {
 }
 
 #aviso__texto {
-  font-family: "Roboto Mono", monospace;
+  font-family: var(--fonte-primaria);
   font-size: 0.875rem;
   text-align: center;
 }
@@ -215,7 +217,7 @@ button:hover {
 }
 
 .aside__container p {
-  font-family: "Roboto Mono", monospace;
+  font-family: var(--fonte-primaria);
   font-size: 0.875rem;
   text-align: center;
 }
