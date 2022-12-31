@@ -52,7 +52,7 @@ O projeto inicial possuía o design proposto no [Figma](https://www.figma.com/fi
   <img src="https://user-images.githubusercontent.com/79670317/209988194-fd87c8bc-199c-4d33-b54e-36a50d09166a.gif" alt="Gif do projeto apagando os campos preenchidos" width=300 />
 </p>
 
-#### Extra: aviso quando o usuário digita palavras com letras maiúsculas ou acentuação ⚠️
+#### Extra: avisa quando o usuário digita palavras com letras maiúsculas ou acentuação ⚠️
 <p align="center">
   <img src="https://user-images.githubusercontent.com/79670317/209989584-9467566b-2c31-42f1-bcfc-cc012a7720fe.gif" alt="Gif do projeto avisando acentuação ou letras maiúsculas" width=300 />
 </p>
