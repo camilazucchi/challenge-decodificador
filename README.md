@@ -31,7 +31,7 @@ O projeto inicial possuía o design proposto no [Figma](https://www.figma.com/fi
 ![Imagem do Projeto Desktop](https://uploaddeimagens.com.br/images/004/277/941/original/screencapture-127-0-0-1-5501-index-html-2022-12-29-10_30_02.png?1672320847)
 ### Versão Mobile 📱<p align="center">
 <p align="center">
-  <img src="https://uploaddeimagens.com.br/images/004/277/947/original/screencapture-127-0-0-1-5501-index-html-2022-12-29-10_23_01.png?1672321018" alt="Imagem do design em um celular" />
+  <img src="https://uploaddeimagens.com.br/images/004/277/947/original/screencapture-127-0-0-1-5501-index-html-2022-12-29-10_23_01.png?1672321018" alt="Imagem do design em um celular" width=300 />
 </p>
 
 ## Funcionalidades
