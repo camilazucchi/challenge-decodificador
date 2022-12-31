@@ -1,4 +1,7 @@
 # 🐾 Meow Code - ONE + Alura Challenge 🔒
+<p align="center">
+  <img src="https://github.com/camilazucchi/challenge-decodificador/blob/master/assets/pictures/cute-cat-head.png" alt="Cabeça de um gatinho" width=100 />
+</p>
 
 ## Início
 O projeto faz parte da primeira fase da seleção ONE (Oracle Next Education) em parceria com a Alura e possui como objetivo a **criptografia de textos**.
