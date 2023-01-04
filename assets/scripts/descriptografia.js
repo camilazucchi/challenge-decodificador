@@ -6,6 +6,8 @@ function descriptografaTexto() {
   var text = entradaTexto.value;
   if (/[A-Z-À-Ú-à-ù]/.test(text)) {
     saidaTexto.innerHTML = 'Ops, parece que você usou letras maiúsculas ou acentos.'
+  } else if (/[0-9]/.test(text)) {
+    saidaTexto.innerHTML = 'Números não são permitidos.'
   } else if (entradaTexto.value === '') {
     saidaTexto.innerHTML = 'O campo está vazio.'
   } else {
