@@ -1,5 +1,5 @@
-var entradaTexto = document.querySelector("textarea#input__entrada");
-var saidaTexto = document.querySelector("textarea#input__saida");
+const entradaTexto = document.querySelector("textarea#input__entrada");
+const saidaTexto = document.querySelector("textarea#input__saida");
 
 function limpaCampos() {
   if (entradaTexto.value.length === 0) {

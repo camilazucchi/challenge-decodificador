@@ -1,9 +1,9 @@
-var botaoDescriptografa = document.getElementById("button#botao__descriptografar");
-var entradaTexto = document.querySelector("textarea#input__entrada");
-var saidaTexto = document.querySelector("textarea#input__saida");
+const botaoDescriptografa = document.getElementById("button#botao__descriptografar");
+const entradaTexto = document.querySelector("textarea#input__entrada");
+const saidaTexto = document.querySelector("textarea#input__saida");
 
 function descriptografaTexto() {
-  var text = entradaTexto.value;
+  let text = entradaTexto.value;
   if (/[A-Z-À-Ú-à-ù]/.test(text)) {
     saidaTexto.innerHTML = 'Ops, parece que você usou letras maiúsculas ou acentos.'
   } else if (/[0-9]/.test(text)) {
