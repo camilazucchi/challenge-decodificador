@@ -1,5 +1,5 @@
-const entradaTexto = document.querySelector("textarea#input__entrada");
-const saidaTexto = document.querySelector("textarea#input__saida");
+var entradaTexto = document.querySelector("textarea#input__entrada");
+var saidaTexto = document.querySelector("textarea#input__saida");
 
 function copiaTexto() {
     let text = entradaTexto.value;

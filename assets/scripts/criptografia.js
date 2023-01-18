@@ -1,8 +1,8 @@
-const botaoCriptografa = document.querySelector("button#botao__criptografar");
-const botaoDescriptografa = document.querySelector("button#botao__descriptografar");
-const botaoCopia = document.getElementById("button#botao__copiar");
-const entradaTexto = document.querySelector("textarea#input__entrada");
-const saidaTexto = document.querySelector("textarea#input__saida");
+var botaoCriptografa = document.querySelector("button#botao__criptografar");
+var botaoDescriptografa = document.querySelector("button#botao__descriptografar");
+var botaoCopia = document.getElementById("button#botao__copiar");
+var entradaTexto = document.querySelector("textarea#input__entrada");
+var saidaTexto = document.querySelector("textarea#input__saida");
 
 function criptografaTexto() {
   let text = entradaTexto.value;

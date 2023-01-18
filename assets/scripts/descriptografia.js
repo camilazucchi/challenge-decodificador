@@ -1,6 +1,6 @@
-const botaoDescriptografa = document.getElementById("button#botao__descriptografar");
-const entradaTexto = document.querySelector("textarea#input__entrada");
-const saidaTexto = document.querySelector("textarea#input__saida");
+var botaoDescriptografa = document.getElementById("button#botao__descriptografar");
+var entradaTexto = document.querySelector("textarea#input__entrada");
+var saidaTexto = document.querySelector("textarea#input__saida");
 
 function descriptografaTexto() {
   let text = entradaTexto.value;
